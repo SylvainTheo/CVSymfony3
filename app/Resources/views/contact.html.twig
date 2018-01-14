@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+{% block navigation %}
+    <ul id="nav">
+        <li><a href="/accueil">Accueil</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/realisation">Réalisation</a></li>
+        <li><a href="/contact" style="color:#009900;">Contact</a></li>
+        <li><a href="/profile">Profil</a></li>
+        <li><a href="/register">S'enregistrer</a></li>
+    </ul>
+{% endblock navigation %}
+{% block title %}Contact{% endblock title %}
+{% block body %}
+    {{ form_start(form) }}
+    {{ form_widget(form) }}
+    {{ form_end(form) }}
+{% endblock body %}

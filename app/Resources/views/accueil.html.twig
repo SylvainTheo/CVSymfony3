@@ -1,0 +1,57 @@
+{% extends 'base.html.twig' %}
+{% block navigation %}
+<ul id="nav">
+    <li><a href="/accueil" style="color:#009900;">Accueil</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/realisation">Réalisation</a></li>
+    <li><a href="/contact">Contact</a></li>
+    <li><a href="/profile">Profil</a></li>
+    <li><a href="/register">S'enregistrer</a></li>
+    <li><a href="/admin/dashboard">Admin</a></li>
+</ul>
+{% endblock navigation %}
+{% block title %}Accueil{% endblock title %}
+{% block body %}
+    <h1>Etudiant actuellement en deuxième année à Ingésupp, je m'appelle Nicolas Yoteau</h1>
+<div>
+    <h2>Infos complémentaire</h2>
+
+    <ul>
+        <li><h3>20 ans</h3></li>
+        <li><h3>Habite à Peujard, 33240</h3></li>
+        <li><h3>France</h3></li>
+        <li><h3>Titulaire du permis de conduire</h3></li>
+    </ul>
+</div>
+<div>
+    <h2>Contact</h2>
+    <ul>
+        <li><h3>Email : nicolasyoteau@orange.fr</h3></li>
+        <li><h3>Telephone : 06 48 59 67 99</h3></li>
+    </ul>
+</div>
+<div>
+    <h1>Compétences</h1>
+        <h2>Développement</h2>
+        <ul>
+            <li><h3>Python</h3> <progress max ="100" value="80"form="form-id">80%</progress></li>
+            <li><h3>Java</h3> <progress max ="100" value="80"form="form-id">80%</progress></li>
+            <li><h3>Javascript</h3> <progress max ="100" value="60"form="form-id">60%</progress></li>
+            <li><h3>C</h3> <progress max ="100" value="70"form="form-id">70%</progress></li>
+            <li><h3>HTML5</h3> <progress max ="100" value="80"form="form-id">80%</progress></li>
+            <li><h3>CSS3</h3> <progress max ="100" value="70"form="form-id">70%</progress></li>
+            <li><h3>PHP(Symfony)</h3> <progress max ="100" value="60"form="form-id">60%</progress></li>
+        </ul>
+        <h2>Base de données</h2>
+        <ul>
+            <li><h3>PL/SQL</h3> <progress max ="100" value="70"form="form-id">70%</progress></li>
+        </ul>
+        <h2>Serveur</h2>
+        <ul>
+            <li><h3>Windows server(2012 r2)</h3> <progress max ="100" value="50"form="form-id">50%</progress></li>
+        </ul>
+</div>
+    <div>
+
+    </div>
+{% endblock body %}
