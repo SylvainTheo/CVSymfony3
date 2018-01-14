@@ -1,3 +1,15 @@
+Note pour mettre en place le projet : 
+===================================
+*   Git clone https://github.com/Noteau/Projet-CV.git
+*   Se placer dans Projet-CV
+*   Executer "composer install" et renseigner les informations demandées
+*   Exécuter php bin/console doctrine:database:create pour mettre en place la base de données
+*   Exécuter php bin/console doctrine:schema:update --force
+*   Enfin faire php bin/console fos:user:create adminuser --super-admin puis renseignez les informations demandées
+*   Pour finir lancer le serveur avec php bin/console server:run
+
+Votre serveur est lancé !
+
 Symfony Standard Edition
 ========================
 
