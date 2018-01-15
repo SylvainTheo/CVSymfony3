@@ -1,12 +1,22 @@
 {% extends 'base.html.twig' %}
 {% block navigation %}
-    <ul id="nav">
-        <li><a href="/accueil">Accueil</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/realisation" style="color:#009900;">Réalisation</a></li>
-        <li><a href="/contact">Contact</a></li>
-        <li><a href="/profile">Profil</a></li>
-        <li><a href="/register">S'enregistrer</a></li>
-    </ul>
+    {{ parent() }}
 {% endblock navigation %}
-{% block title %}Realisation{% endblock title %}
+{% block title %}Realisation et expérience professionnelle{% endblock title %}
+{% block body %}
+    <div>
+        <h2>Participation à la créaion d'un site de location d'hébergement</h2>
+        <p>Carbet des chouettes - Bordeaux - France - Juin 2017</p>
+    </div>
+    <div>
+        <h2>Participation à la création d'un site de gestion de parking</h2>
+        <p>Stockapart - Bordeaux - France - Août 2017</p>
+    </div>
+    <div>
+        <h2>Création d'un petit jeu vidéo en javascript</h2>
+        <p>Ingésup - Février 2017</p>
+        <p>Premier projet en javascript de 1ère année</p>
+        <a href="https://sylvaintheo.github.io/CometDodger/index.html">Lien</a>
+    </div>
+
+{% endblock body %}
