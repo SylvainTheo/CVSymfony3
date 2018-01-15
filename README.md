@@ -1,7 +1,7 @@
 Note pour mettre en place le projet : 
 ===================================
-*   Git clone https://github.com/Noteau/Projet-CV.git
-*   Se placer dans Projet-CV
+*   Git clone https://github.com/SylvainTheo/CVSymfony3.git
+*   Se placer dans CVSymfony3
 *   Executer "composer install" et renseigner les informations demandées
 *   Exécuter php bin/console doctrine:database:create pour mettre en place la base de données
 *   Exécuter php bin/console doctrine:schema:update --force
